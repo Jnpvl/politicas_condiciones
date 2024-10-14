@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: '/politicas_condiciones/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
