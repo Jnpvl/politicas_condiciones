@@ -9,8 +9,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="Politicas y Condiciones" />
 
       <nav>
-        <RouterLink to="/">Shoot</RouterLink>
+        <RouterLink to="/">SpeedTest</RouterLink>
         <RouterLink to="/catchIt">CatchIt</RouterLink>
+        <RouterLink to="/shoot">Shoot</RouterLink>
       </nav>
     </div>
   </header>
